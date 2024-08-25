@@ -1,0 +1,20 @@
+# Environment files
+.env
+
+# Git directories
+.git/
+
+# Terraform files
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfplan
+*.terraform.lock.hcl
+
+# Local .terraform directories
+.terraform/*
+
+**/.terraform/*
+
+**/.git/*
